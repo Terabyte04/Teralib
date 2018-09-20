@@ -17,7 +17,7 @@ Step Two: Create the required methods and constructor
 E.G.
 ```java
 public class Game extends MainLauncher {
-  public Game(String title, int width, int height, boolean resizable, Bitmap bitmap) {
+  	public Game(String title, int width, int height, boolean resizable, Bitmap bitmap) {
 		super(title, width, height, resizable, bitmap);
 	}
 
@@ -40,11 +40,11 @@ In another class or in the same one, create the main method:
 (Launcher.java)
 ```java
 public class Launcher {
-  public static void main(String[] args) {
-    Bitmap bitmap = new Bitmap(640/*width*/, 480/*height*/);
-    Game game = new Game("Title", 640/*width*/, 480/*height*/, true/*resizable*/, bitmap/*bitmap*/);
-    game.start();
-  }
+	public static void main(String[] args) {
+		Bitmap bitmap = new Bitmap(640/*width*/, 480/*height*/);
+		Game game = new Game("Title", 640/*width*/, 480/*height*/, true/*resizable*/, bitmap/*bitmap*/);
+		game.start();
+	}
 }
 ```
 
