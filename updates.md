@@ -8,5 +8,7 @@ is fine and balanced out.
     - I plan to add some abstract class that all of your game-objects should inherit from
     - I plan to add a handler to handle those objects (update, render, input, ...)
     - I plan to add a less verbose `render()` function, so starting out is easier
+    - I plan to add a built in maths library (for vectors, points, 3D vectors, etc.)
+    - I plan to add JoyStick input, somehow
     
 Those are all updates I feel are necesarry, apart from removing bugs, etc.
