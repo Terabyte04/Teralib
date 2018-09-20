@@ -5,6 +5,8 @@ Teralib, a simple yet fast Java game framework that does all the nitty-gritty st
 Setting Teralib up with your project is pretty simple, just download the .jar file called "Teralib.jar" and include it in your project!
 When that's done, getting into the game development is not difficult at all!
 
+REMINDER: Remember to import the files from the framework that's necessary!
+
 Step One: Create a class that extends `MainLauncher`
 E.G.
 ```java
