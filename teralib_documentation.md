@@ -128,6 +128,7 @@ via the `bitmap`'s render texture. Say I have an object with a `draw()` function
 object as an argument to the `draw(Graphics g)` function, in order to draw whatever you'd want.
 
 The `render()` function is located in your class that extends `MainLauncher`, and should look like this:
+
 ```java
 @Override
 public void render() {
@@ -142,5 +143,18 @@ public void render() {
 
 	bs.show();
 	g.dispose();
+}
+```
+
+# What is init?
+
+The function `init()` is what's used to initialize objects when the program first runs
+
+The `init()` function is located in your class that extends `MainLauncher`, and looks like this:
+
+```java
+@Override
+public void init() {
+	/* Initialize objects here */
 }
 ```
