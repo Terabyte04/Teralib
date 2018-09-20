@@ -3,7 +3,7 @@
 Hello everyone! I have just begun working on this framework as of 20 Sept, 2018. I want to continue adding updates until I feel everything
 is fine and balanced out.
 
-NOTE: This list is not necesarrily in order.
+NOTE: This list is not necessarily in order.
 
 # The Next Updates:
     - I plan to add a built-in game-state system
@@ -17,4 +17,4 @@ NOTE: This list is not necesarrily in order.
     - I plan to add a very easy way to create sprites
     - I plan to add all of the keys on the keyboard
     
-Those are all updates I feel are necesarry, apart from removing bugs, etc.
+Those are all updates I feel are necessary, apart from removing bugs, etc.
