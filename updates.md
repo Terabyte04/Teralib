@@ -10,5 +10,6 @@ is fine and balanced out.
     - I plan to add a less verbose `render()` function, so starting out is easier
     - I plan to add a built in maths library (for vectors, points, 3D vectors, etc.)
     - I plan to add JoyStick input, somehow
+    - I plan to change "MainLauncher" to something better, as "MainLauncher" isn't a very good name for what it's used for
     
 Those are all updates I feel are necesarry, apart from removing bugs, etc.
