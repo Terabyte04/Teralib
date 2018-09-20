@@ -9,7 +9,7 @@ Step One: Create a class that extends `MainLauncher`
 E.G.
 ```java
 public class Game extends MainLauncher {
-    ...
+	/* ... */
 }
 ```
 
