@@ -5,7 +5,7 @@ is fine and balanced out.
 
 NOTE: This list is not necessarily in order.
 
-NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I've made rendering stuff to the screen a lot easier and more user friendly.
+NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I've made rendering stuff to the screen a lot easier and more user friendly. So it has a `[x]` next to it to indicate that it's been completed.
 
 # The Next Updates:
     - I plan to add a built-in game-state system
