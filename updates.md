@@ -16,3 +16,7 @@ NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I'
     - I plan to add all of the keys on the keyboard [x]
     
 Those are all updates I feel are necessary, apart from removing bugs, etc.
+
+# Updates are complete as of 21 September, 2018! Enjoy Teralib!
+I had lots of fun making this framework/engine, I hope to see many projects created with it! If you have created any
+projects with this framework, feel free to share them in the comments, or just email me: deathdragon120@gmail.com
