@@ -59,9 +59,6 @@ public abstract class MainLauncher implements Runnable {
 		stop();
 	}
 	
-	public abstract void init();
-	public abstract void tick();
-	
 	public void render() {
 		BufferStrategy bs = bitmap.getDrawBuffer();
 		if (bs == null) {
@@ -75,6 +72,9 @@ public abstract class MainLauncher implements Runnable {
 		bs.show();
 		g.dispose();
 	}
+	
+	public abstract void init();
+	public abstract void tick();
 	
 	public abstract void draw(Graphics g);
 	
