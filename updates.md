@@ -9,7 +9,7 @@ NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I'
 
 # The Next Updates:
     - I plan to add a less verbose `render()` function, so starting out is easier [x]
-    - I plan to add a built in maths library (for vectors, points, 3D vectors, etc.) []
+    - I plan to add a built in maths library (for vectors, points, 3D vectors, etc.) [x]
     - I plan to change "MainLauncher" to something better, as "MainLauncher" isn't a very good name for what it's used for [x]
     - I plan to add easy image loading [x]
     - I plan to add a very easy way to create sprites []
