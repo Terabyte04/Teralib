@@ -12,7 +12,7 @@ NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I'
     - I plan to add a built in maths library (for vectors, points, 3D vectors, etc.) [x]
     - I plan to change "MainLauncher" to something better, as "MainLauncher" isn't a very good name for what it's used for [x]
     - I plan to add easy image loading [x]
-    - I plan to add a very easy way to create sprites []
+    - I plan to add a very easy way to create sprites [x]
     - I plan to add all of the keys on the keyboard [x]
     
 Those are all updates I feel are necessary, apart from removing bugs, etc.
