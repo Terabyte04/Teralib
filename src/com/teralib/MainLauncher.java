@@ -51,7 +51,7 @@ public abstract class MainLauncher implements Runnable {
 			delta += (now - lastTime) / timePerTick;
 			lastTime = now;
 			if (delta >= 1) {
-				tick();
+				tick(delta);
 				render();
 				delta--;
 			}
@@ -74,7 +74,7 @@ public abstract class MainLauncher implements Runnable {
 	}
 	
 	public abstract void init();
-	public abstract void tick();
+	public abstract void tick(double deltaTime);
 	
 	public abstract void draw(Graphics g);
 	
