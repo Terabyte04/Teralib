@@ -78,7 +78,6 @@ public abstract class Engine implements Runnable {
 	
 	public abstract void init();
 	public abstract void tick(double deltaTime);
-	
 	public abstract void draw(Graphics g);
 	
 	public synchronized void start() {
