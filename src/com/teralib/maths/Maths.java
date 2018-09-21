@@ -2,7 +2,7 @@ package com.teralib.maths;
 
 public class Maths {
 
-	public float distance(Vector2f pointA, Vector2f pointB) {
+	public static float distance(Vector2f pointA, Vector2f pointB) {
 		float dist = (float) Math.sqrt(
 			Math.pow((float) (pointB.x - pointA.x), 2) +
 			Math.pow((float) (pointB.y - pointA.y), 2)
@@ -10,7 +10,7 @@ public class Maths {
 		return dist;
 	}
 	
-	public float returnAverageFloat(Float... numbers) {
+	public static float returnAverageFloat(Float... numbers) {
 		float total = 0.0f;
 		for (int i = 0; i < numbers.length; i++) {
 			total += numbers[i];
@@ -19,7 +19,7 @@ public class Maths {
 		return average;
 	}
 	
-	public int returnAverageInt(Integer... numbers) {
+	public static int returnAverageInt(Integer... numbers) {
 		int total = 0;
 		for (int i = 0; i < numbers.length; i++) {
 			total += numbers[i];
@@ -28,7 +28,7 @@ public class Maths {
 		return average;
 	}
 	
-	public double returnAverageDouble(Double... numbers) {
+	public static double returnAverageDouble(Double... numbers) {
 		double total = 0.0d;
 		for (int i = 0; i < numbers.length; i++) {
 			total += numbers[i];
@@ -37,7 +37,7 @@ public class Maths {
 		return average;
 	}
 	
-	public long returnAverageLong(Long... numbers) {
+	public static long returnAverageLong(Long... numbers) {
 		long total = 0L;
 		for (int i = 0; i < numbers.length; i++) {
 			total += numbers[i];

@@ -31,13 +31,8 @@ public class Sprite {
 		position.y += dy;
 	}
 	
-	public void draw(Graphics g) {
-		if (texture != null)
-			g.drawImage(texture, (int) position.x, (int) position.y, (int) width, (int) height, null);
-		else {
-			g.setColor(Color.magenta);
-			g.fillRect((int) position.x, (int) position.y, (int) width, (int) height);
-		}
+	public BufferedImage getTexture() {
+		return texture;
 	}
 	
 	public Vector2f getPosition() {
