@@ -10,7 +10,7 @@ import com.teralib.input.Keyboard;
 import com.teralib.input.Mouse;
 
 @SuppressWarnings("static-access")
-public abstract class MainLauncher implements Runnable {
+public abstract class Engine implements Runnable {
 
 	protected Display display;
 	protected Bitmap bitmap;
@@ -24,7 +24,7 @@ public abstract class MainLauncher implements Runnable {
 	protected Keyboard keyboard;
 	protected Mouse mouse;
 	
-	public MainLauncher(String title, int width, int height, boolean resizable, Bitmap bitmap) {
+	public Engine(String title, int width, int height, boolean resizable, Bitmap bitmap) {
 		this.bitmap = bitmap;
 		this.WIDTH = width;
 		this.HEIGHT = height;
