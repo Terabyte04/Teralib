@@ -1,5 +1,8 @@
 package com.teralib;
 
+import java.awt.Graphics;
+import java.awt.image.BufferStrategy;
+
 import com.teralib.display.Bitmap;
 import com.teralib.display.Display;
 import com.teralib.input.Keyboard;
@@ -11,8 +14,8 @@ public abstract class MainLauncher implements Runnable {
 	protected Display display;
 	protected Bitmap bitmap;
 	
-	protected static int WIDTH;
-	protected static int HEIGHT;
+	public static int WIDTH;
+	public static int HEIGHT;
 	
 	private Thread thread;
 	private boolean running = false;
@@ -58,7 +61,22 @@ public abstract class MainLauncher implements Runnable {
 	
 	public abstract void init();
 	public abstract void tick();
-	public abstract void render();
+	
+	public void render() {
+		BufferStrategy bs = bitmap.getDrawBuffer();
+		if (bs == null) {
+			bitmap.createBufferStrategy(3);
+			return;
+		}
+		Graphics g = bs.getDrawGraphics();
+		
+		draw(g);
+		
+		bs.show();
+		g.dispose();
+	}
+	
+	public abstract void draw(Graphics g);
 	
 	public synchronized void start() {
 		if (running)
