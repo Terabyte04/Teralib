@@ -5,6 +5,8 @@ is fine and balanced out.
 
 NOTE: This list is not necessarily in order.
 
+NOTE: When something has `[x]` next to it, it means that it's been done. E.G. I've made rendering stuff to the screen a lot easier and more user friendly.
+
 # The Next Updates:
     - I plan to add a built-in game-state system
     - I plan to add some abstract class that all of your game-objects should inherit from
