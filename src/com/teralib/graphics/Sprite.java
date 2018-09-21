@@ -1,29 +1,19 @@
 package com.teralib.graphics;
 
-import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 import com.teralib.maths.Vector2f;
+import com.teralib.util.ImageLoader;
 
 public class Sprite {
 
 	private Vector2f position;
 	
-	private float x;
-	private float y;
-	private float width;
-	private float height;
-	
 	private BufferedImage texture;
 	
-	public Sprite(BufferedImage texture, float x, float y, float width, float height) {
+	public Sprite(String texturePath, float x, float y, float width, float height) {
 		this.position = new Vector2f(x, y);
-		this.texture = texture;
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
+		this.texture = ImageLoader.loadImage(texturePath);
 	}
 	
 	public void move(float dx, float dy) {
@@ -33,6 +23,10 @@ public class Sprite {
 	
 	public BufferedImage getTexture() {
 		return texture;
+	}
+	
+	public void setTexture(String texturePath) {
+		this.texture = ImageLoader.loadImage(texturePath);
 	}
 	
 	public Vector2f getPosition() {
