@@ -1,6 +1,7 @@
 package com.teralib;
 
 import java.awt.Graphics;
+import java.awt.Toolkit;
 import java.awt.image.BufferStrategy;
 
 import com.teralib.display.Bitmap;
@@ -71,6 +72,8 @@ public abstract class MainLauncher implements Runnable {
 		
 		bs.show();
 		g.dispose();
+		
+		Toolkit.getDefaultToolkit().sync();
 	}
 	
 	public abstract void init();
