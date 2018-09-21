@@ -33,5 +33,18 @@ public class Key {
 	
 	public static final int KEY_SPACE = KeyEvent.VK_SPACE;
 	public static final int KEY_ESCAPE = KeyEvent.VK_ESCAPE;
+	public static final int KEY_SHIFT = KeyEvent.VK_SHIFT;
+	
+	public static final int KEY_UP = KeyEvent.VK_UP;
+	public static final int KEY_DOWN = KeyEvent.VK_DOWN;
+	public static final int KEY_LEFT = KeyEvent.VK_LEFT;
+	public static final int KEY_RIGHT = KeyEvent.VK_RIGHT;
+	
+	public static final int KEY_TAB = KeyEvent.VK_TAB;
+	public static final int KEY_CONTROL = KeyEvent.VK_CONTROL;
+	public static final int KEY_ALT = KeyEvent.VK_ALT;
 
+	public static final int KEY_SEMICOLON = KeyEvent.VK_SEMICOLON;
+	public static final int KEY_COLON = KeyEvent.VK_COLON;
+	
 }
