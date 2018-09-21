@@ -13,7 +13,7 @@ import com.teralib.input.Mouse;
 public abstract class Engine implements Runnable {
 
 	protected Display display;
-	protected Bitmap bitmap;
+	public static Bitmap bitmap;
 	
 	public static int WIDTH;
 	public static int HEIGHT;
